@@ -1,0 +1,779 @@
+k=1 , l = 1
+
+
+Confusion Matrix :
+[[ 9.  2. 39.]
+ [ 1. 41.  8.]
+ [ 5.  1. 44.]] 
+
+Accuracy :  62.6666666667 %
+
+Recall :
+Class 1 :    0.18
+Class 2 :    0.82
+Class 3 :    0.88
+Mean Recall :  0.626666666667
+
+
+Precision :
+Class 1 :    0.6
+Class 2 :    0.931818181818
+Class 3 :    0.483516483516
+Mean Precision :  0.671778221778
+
+
+F-Measure :
+Class 1 :    0.276923076923
+Class 2 :    0.872340425532
+Class 3 :    0.624113475177
+Mean F-Measure :  0.591125659211
+
+
+
+
+=================================================================================================================
+
+
+k = 1 , l = 2
+
+Confusion Matrix :
+[[16.  0. 34.]
+ [ 2.  1. 47.]
+ [ 9.  0. 41.]] 
+
+Accuracy :  38.6666666667 %
+
+Recall :
+Class 1 :    0.32
+Class 2 :    0.02
+Class 3 :    0.82
+Mean Recall :  0.386666666667
+
+
+Precision :
+Class 1 :    0.592592592593
+Class 2 :    1.0
+Class 3 :    0.33606557377
+Mean Precision :  0.642886055454
+
+
+F-Measure :
+Class 1 :    0.415584415584
+Class 2 :    0.0392156862745
+Class 3 :    0.476744186047
+Mean F-Measure :  0.310514762635
+
+
+===================================================================================
+
+k = 1, l = 3
+
+Confusion Matrix :
+[[11.  0. 39.]
+ [ 1.  2. 47.]
+ [10.  0. 40.]] 
+
+Accuracy :  35.3333333333 %
+
+Recall :
+Class 1 :    0.22
+Class 2 :    0.04
+Class 3 :    0.8
+Mean Recall :  0.353333333333
+
+
+Precision :
+Class 1 :    0.5
+Class 2 :    1.0
+Class 3 :    0.31746031746
+Mean Precision :  0.60582010582
+
+
+F-Measure :
+Class 1 :    0.305555555556
+Class 2 :    0.0769230769231
+Class 3 :    0.454545454545
+Mean F-Measure :  0.279008029008
+
+==========================================================================================
+
+k = 1 , l = 4
+
+Confusion Matrix :
+[[ 8.  0. 42.]
+ [ 0.  0. 50.]
+ [ 6.  0. 44.]] 
+
+Accuracy :  34.6666666667 %
+
+Recall :
+Class 1 :    0.16
+Class 2 :    0.0
+Class 3 :    0.88
+Mean Recall :  0.346666666667
+
+
+classification1.py:431: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC2=float((ConfusionMatrix[1][1])/(ConfusionMatrix[0][1]+ConfusionMatrix[1][1]+ConfusionMatrix[2][1]))
+Precision :
+Class 1 :    0.571428571429
+Class 2 :    nan
+Class 3 :    0.323529411765
+Mean Precision :  nan
+
+
+F-Measure :
+Class 1 :    0.25
+Class 2 :    nan
+Class 3 :    0.47311827957
+Mean F-Measure :  nan
+
+
+
+===============================================================================================
+
+k = 1, l = 5
+
+Confusion Matrix :
+[[ 0.  0. 50.]
+ [ 0.  0. 50.]
+ [ 0.  0. 50.]] 
+
+Accuracy :  33.3333333333 %
+
+Recall :
+Class 1 :    0.0
+Class 2 :    0.0
+Class 3 :    1.0
+Mean Recall :  0.333333333333
+
+
+classification1.py:430: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC1=float((ConfusionMatrix[0][0])/(ConfusionMatrix[0][0]+ConfusionMatrix[1][0]+ConfusionMatrix[2][0]))
+classification1.py:431: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC2=float((ConfusionMatrix[1][1])/(ConfusionMatrix[0][1]+ConfusionMatrix[1][1]+ConfusionMatrix[2][1]))
+Precision :
+Class 1 :    nan
+Class 2 :    nan
+Class 3 :    0.333333333333
+Mean Precision :  nan
+
+
+F-Measure :
+Class 1 :    nan
+Class 2 :    nan
+Class 3 :    0.5
+Mean F-Measure :  nan
+
+
+
+***************************************************************************************
+
+k = 2 , l = 1
+
+Confusion Matrix :
+[[13.  2. 35.]
+ [ 2. 28. 20.]
+ [ 5.  1. 44.]] 
+
+Accuracy :  56.6666666667 %
+
+Recall :
+Class 1 :    0.26
+Class 2 :    0.56
+Class 3 :    0.88
+Mean Recall :  0.566666666667
+
+
+Precision :
+Class 1 :    0.65
+Class 2 :    0.903225806452
+Class 3 :    0.444444444444
+Mean Precision :  0.665890083632
+
+
+F-Measure :
+Class 1 :    0.371428571429
+Class 2 :    0.691358024691
+Class 3 :    0.590604026846
+Mean F-Measure :  0.551130207655
+
+
+=============================================================================================
+
+k = 2 , l = 2
+
+Confusion Matrix :
+[[29.  0. 21.]
+ [ 1.  1. 48.]
+ [ 3.  1. 46.]] 
+
+Accuracy :  50.6666666667 %
+
+Recall :
+Class 1 :    0.58
+Class 2 :    0.02
+Class 3 :    0.92
+Mean Recall :  0.506666666667
+
+
+Precision :
+Class 1 :    0.878787878788
+Class 2 :    0.5
+Class 3 :    0.4
+Mean Precision :  0.592929292929
+
+
+F-Measure :
+Class 1 :    0.698795180723
+Class 2 :    0.0384615384615
+Class 3 :    0.557575757576
+Mean F-Measure :  0.431610825587
+
+================================================================================
+
+k = 2, l=3
+
+Confusion Matrix :
+[[20.  1. 29.]
+ [ 1.  2. 47.]
+ [ 5.  0. 45.]] 
+
+Accuracy :  44.6666666667 %
+
+Recall :
+Class 1 :    0.4
+Class 2 :    0.04
+Class 3 :    0.9
+Mean Recall :  0.446666666667
+
+
+Precision :
+Class 1 :    0.769230769231
+Class 2 :    0.666666666667
+Class 3 :    0.371900826446
+Mean Precision :  0.602599420781
+
+
+F-Measure :
+Class 1 :    0.526315789474
+Class 2 :    0.0754716981132
+Class 3 :    0.526315789474
+Mean F-Measure :  0.376034425687
+
+==================================================================================
+
+k=2 , l=4
+
+Confusion Matrix :
+[[10.  1. 39.]
+ [ 0.  0. 50.]
+ [ 3.  0. 47.]] 
+
+Accuracy :  38.0 %
+
+Recall :
+Class 1 :    0.2
+Class 2 :    0.0
+Class 3 :    0.94
+Mean Recall :  0.38
+
+
+Precision :
+Class 1 :    0.769230769231
+Class 2 :    0.0
+Class 3 :    0.345588235294
+Mean Precision :  0.371606334842
+
+
+F-Measure :
+Class 1 :    0.31746031746
+Class 2 :    0
+Class 3 :    0.505376344086
+Mean F-Measure :  0.274278887182
+
+==================================================================================
+
+k=2, l=5
+
+Confusion Matrix :
+[[15.  0. 35.]
+ [ 0.  2. 48.]
+ [ 0.  0. 50.]] 
+
+Accuracy :  44.6666666667 %
+
+Recall :
+Class 1 :    0.3
+Class 2 :    0.04
+Class 3 :    1.0
+Mean Recall :  0.446666666667
+
+
+Precision :
+Class 1 :    1.0
+Class 2 :    1.0
+Class 3 :    0.375939849624
+Mean Precision :  0.791979949875
+
+
+F-Measure :
+Class 1 :    0.461538461538
+Class 2 :    0.0769230769231
+Class 3 :    0.546448087432
+Mean F-Measure :  0.361636541964
+
+
+************************************************************************************
+*************************************************************************************
+
+k = 3 , l=1
+
+Confusion Matrix :
+[[10.  2. 38.]
+ [ 1. 32. 17.]
+ [ 5.  1. 44.]] 
+
+Accuracy :  57.3333333333 %
+
+Recall :
+Class 1 :    0.2
+Class 2 :    0.64
+Class 3 :    0.88
+Mean Recall :  0.573333333333
+
+
+Precision :
+Class 1 :    0.625
+Class 2 :    0.914285714286
+Class 3 :    0.444444444444
+Mean Precision :  0.661243386243
+
+
+F-Measure :
+Class 1 :    0.30303030303
+Class 2 :    0.752941176471
+Class 3 :    0.590604026846
+Mean F-Measure :  0.548858502116
+
+
+==========================================================================================
+
+k=3, l=2
+
+Confusion Matrix :
+[[30.  0. 20.]
+ [ 1.  0. 49.]
+ [ 2.  1. 47.]] 
+
+Accuracy :  51.3333333333 %
+
+Recall :
+Class 1 :    0.6
+Class 2 :    0.0
+Class 3 :    0.94
+Mean Recall :  0.513333333333
+
+
+Precision :
+Class 1 :    0.909090909091
+Class 2 :    0.0
+Class 3 :    0.405172413793
+Mean Precision :  0.438087774295
+
+
+F-Measure :
+Class 1 :    0.722891566265
+Class 2 :    0
+Class 3 :    0.566265060241
+Mean F-Measure :  0.429718875502
+
+=====================================================================================
+
+k =3, l=3
+
+Confusion Matrix :
+[[29.  0. 21.]
+ [ 0.  2. 48.]
+ [ 7.  0. 43.]] 
+
+Accuracy :  49.3333333333 %
+
+Recall :
+Class 1 :    0.58
+Class 2 :    0.04
+Class 3 :    0.86
+Mean Recall :  0.493333333333
+
+
+Precision :
+Class 1 :    0.805555555556
+Class 2 :    1.0
+Class 3 :    0.383928571429
+Mean Precision :  0.729828042328
+
+
+F-Measure :
+Class 1 :    0.674418604651
+Class 2 :    0.0769230769231
+Class 3 :    0.530864197531
+Mean F-Measure :  0.427401959702
+
+========================================================================================
+
+k = 3, l=4
+
+Confusion Matrix :
+[[14.  0. 36.]
+ [ 1.  1. 48.]
+ [ 9.  0. 41.]] 
+
+Accuracy :  37.3333333333 %
+
+Recall :
+Class 1 :    0.28
+Class 2 :    0.02
+Class 3 :    0.82
+Mean Recall :  0.373333333333
+
+
+Precision :
+Class 1 :    0.583333333333
+Class 2 :    1.0
+Class 3 :    0.328
+Mean Precision :  0.637111111111
+
+
+F-Measure :
+Class 1 :    0.378378378378
+Class 2 :    0.0392156862745
+Class 3 :    0.468571428571
+Mean F-Measure :  0.295388497741
+
+
+==========================================================================================
+
+k=3, l=5
+
+Confusion Matrix :
+[[ 6.  0. 44.]
+ [ 0.  1. 49.]
+ [ 3.  0. 47.]] 
+
+Accuracy :  36.0 %
+
+Recall :
+Class 1 :    0.12
+Class 2 :    0.02
+Class 3 :    0.94
+Mean Recall :  0.36
+
+
+Precision :
+Class 1 :    0.666666666667
+Class 2 :    1.0
+Class 3 :    0.335714285714
+Mean Precision :  0.66746031746
+
+
+F-Measure :
+Class 1 :    0.203389830508
+Class 2 :    0.0392156862745
+Class 3 :    0.494736842105
+Mean F-Measure :  0.245780786296
+
+*****************************************************************************
+*****************************************************************************
+
+k = 4 , l=1
+
+Confusion Matrix :
+[[34.  2. 14.]
+ [ 1. 37. 12.]
+ [ 7.  1. 42.]] 
+
+Accuracy :  75.3333333333 %
+
+Recall :
+Class 1 :    0.68
+Class 2 :    0.74
+Class 3 :    0.84
+Mean Recall :  0.753333333333
+
+
+Precision :
+Class 1 :    0.809523809524
+Class 2 :    0.925
+Class 3 :    0.617647058824
+Mean Precision :  0.784056956116
+
+
+F-Measure :
+Class 1 :    0.739130434783
+Class 2 :    0.822222222222
+Class 3 :    0.71186440678
+Mean F-Measure :  0.757739021261
+
+==============================================================================
+
+k = 4, l=2
+
+Confusion Matrix :
+[[38.  0. 12.]
+ [ 1.  0. 49.]
+ [ 9.  0. 41.]] 
+
+Accuracy :  52.6666666667 %
+
+Recall :
+Class 1 :    0.76
+Class 2 :    0.0
+Class 3 :    0.82
+Mean Recall :  0.526666666667
+
+
+classification1.py:429: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC2=float((ConfusionMatrix[1][1])/(ConfusionMatrix[0][1]+ConfusionMatrix[1][1]+ConfusionMatrix[2][1]))
+Precision :
+Class 1 :    0.791666666667
+Class 2 :    nan
+Class 3 :    0.401960784314
+Mean Precision :  nan
+
+
+F-Measure :
+Class 1 :    0.775510204082
+Class 2 :    nan
+Class 3 :    0.539473684211
+Mean F-Measure :  nan
+
+=======================================================
+
+k = 4, l=3
+
+Confusion Matrix :
+[[30.  0. 20.]
+ [ 0.  1. 49.]
+ [ 7.  0. 43.]] 
+
+Accuracy :  49.3333333333 %
+
+Recall :
+Class 1 :    0.6
+Class 2 :    0.02
+Class 3 :    0.86
+Mean Recall :  0.493333333333
+
+
+Precision :
+Class 1 :    0.810810810811
+Class 2 :    1.0
+Class 3 :    0.383928571429
+Mean Precision :  0.73157979408
+
+
+F-Measure :
+Class 1 :    0.689655172414
+Class 2 :    0.0392156862745
+Class 3 :    0.530864197531
+Mean F-Measure :  0.419911685406
+
+==========================================================================
+
+k = 4, l=4
+
+Confusion Matrix :
+[[21.  0. 29.]
+ [ 1.  1. 48.]
+ [ 9.  0. 41.]] 
+
+Accuracy :  42.0 %
+
+Recall :
+Class 1 :    0.42
+Class 2 :    0.02
+Class 3 :    0.82
+Mean Recall :  0.42
+
+
+Precision :
+Class 1 :    0.677419354839
+Class 2 :    1.0
+Class 3 :    0.347457627119
+Mean Precision :  0.674958993986
+
+
+F-Measure :
+Class 1 :    0.518518518519
+Class 2 :    0.0392156862745
+Class 3 :    0.488095238095
+Mean F-Measure :  0.348609814296
+
+==================================================================================
+
+k=4, l=5
+
+Confusion Matrix :
+[[ 4.  0. 46.]
+ [ 0.  1. 49.]
+ [ 0.  0. 50.]] 
+
+Accuracy :  36.6666666667 %
+
+Recall :
+Class 1 :    0.08
+Class 2 :    0.02
+Class 3 :    1.0
+Mean Recall :  0.366666666667
+
+
+Precision :
+Class 1 :    1.0
+Class 2 :    1.0
+Class 3 :    0.344827586207
+Mean Precision :  0.781609195402
+
+
+F-Measure :
+Class 1 :    0.148148148148
+Class 2 :    0.0392156862745
+Class 3 :    0.512820512821
+Mean F-Measure :  0.233394782414
+
+**********************************************************************************
+*********************************************************************************
+
+k=8, l=1
+
+Confusion Matrix :
+[[40.  2.  8.]
+ [ 1. 35. 14.]
+ [17.  1. 32.]] 
+
+Accuracy :  71.3333333333 %
+
+Recall :
+Class 1 :    0.8
+Class 2 :    0.7
+Class 3 :    0.64
+Mean Recall :  0.713333333333
+
+
+Precision :
+Class 1 :    0.689655172414
+Class 2 :    0.921052631579
+Class 3 :    0.592592592593
+Mean Precision :  0.734433465528
+
+
+F-Measure :
+Class 1 :    0.740740740741
+Class 2 :    0.795454545455
+Class 3 :    0.615384615385
+Mean F-Measure :  0.717193300527
+
+
+=====================================================================
+
+k=8, l=2
+
+Confusion Matrix :
+[[ 0.  0. 50.]
+ [ 0.  0. 50.]
+ [ 0.  0. 50.]] 
+
+Accuracy :  33.3333333333 %
+
+Recall :
+Class 1 :    0.0
+Class 2 :    0.0
+Class 3 :    1.0
+Mean Recall :  0.333333333333
+
+
+classification1.py:428: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC1=float((ConfusionMatrix[0][0])/(ConfusionMatrix[0][0]+ConfusionMatrix[1][0]+ConfusionMatrix[2][0]))
+classification1.py:429: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC2=float((ConfusionMatrix[1][1])/(ConfusionMatrix[0][1]+ConfusionMatrix[1][1]+ConfusionMatrix[2][1]))
+Precision :
+Class 1 :    nan
+Class 2 :    nan
+Class 3 :    0.333333333333
+Mean Precision :  nan
+
+
+F-Measure :
+Class 1 :    nan
+Class 2 :    nan
+Class 3 :    0.5
+Mean F-Measure :  nan
+
+==============================================================
+
+k = 8, l = 3
+
+Confusion Matrix :
+[[40.  0. 10.]
+ [ 2.  1. 47.]
+ [37.  0. 13.]] 
+
+Accuracy :  36.0 %
+
+Recall :
+Class 1 :    0.8
+Class 2 :    0.02
+Class 3 :    0.26
+Mean Recall :  0.36
+
+
+Precision :
+Class 1 :    0.506329113924
+Class 2 :    1.0
+Class 3 :    0.185714285714
+Mean Precision :  0.564014466546
+
+
+F-Measure :
+Class 1 :    0.62015503876
+Class 2 :    0.0392156862745
+Class 3 :    0.216666666667
+Mean F-Measure :  0.2920124639
+
+
+=======================================
+k=8, l=4
+
+Confusion Matrix :
+[[ 0.  0. 50.]
+ [ 0.  0. 50.]
+ [ 0.  0. 50.]] 
+
+Accuracy :  33.3333333333 %
+
+Recall :
+Class 1 :    0.0
+Class 2 :    0.0
+Class 3 :    1.0
+Mean Recall :  0.333333333333
+
+
+classification1.py:430: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC1=float((ConfusionMatrix[0][0])/(ConfusionMatrix[0][0]+ConfusionMatrix[1][0]+ConfusionMatrix[2][0]))
+classification1.py:431: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC2=float((ConfusionMatrix[1][1])/(ConfusionMatrix[0][1]+ConfusionMatrix[1][1]+ConfusionMatrix[2][1]))
+Precision :
+Class 1 :    nan
+Class 2 :    nan
+Class 3 :    0.333333333333
+Mean Precision :  nan
+
+
+F-Measure :
+Class 1 :    nan
+Class 2 :    nan
+Class 3 :    0.5
+Mean F-Measure :  nan
+
+
+============================
+k=8, l =5

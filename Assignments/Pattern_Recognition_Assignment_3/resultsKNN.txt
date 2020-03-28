@@ -1,0 +1,127 @@
+k = 4
+
+Confusion Matrix :
+[[84.  2.  0.]
+ [15.  7.  0.]
+ [12.  0.  1.]] 
+
+Accuracy :  76.0330578512 %
+
+Recall :
+Class 1 :    0.976744186047
+Class 2 :    0.318181818182
+Class 3 :    0.0769230769231
+Mean Recall :  0.45728302705
+
+
+Precision :
+Class 1 :    0.756756756757
+Class 2 :    0.777777777778
+Class 3 :    1.0
+Mean Precision :  0.844844844845
+
+
+F-Measure :
+Class 1 :    0.852791878173
+Class 2 :    0.451612903226
+Class 3 :    0.142857142857
+Mean F-Measure :  0.482420641419
+
+
+==============================================================
+
+k=8
+
+Confusion Matrix :
+[[86.  0.  0.]
+ [19.  3.  0.]
+ [12.  0.  1.]] 
+
+Accuracy :  74.3801652893 %
+
+Recall :
+Class 1 :    1.0
+Class 2 :    0.136363636364
+Class 3 :    0.0769230769231
+Mean Recall :  0.404428904429
+
+
+Precision :
+Class 1 :    0.735042735043
+Class 2 :    1.0
+Class 3 :    1.0
+Mean Precision :  0.911680911681
+
+
+F-Measure :
+Class 1 :    0.847290640394
+Class 2 :    0.24
+Class 3 :    0.142857142857
+Mean F-Measure :  0.410049261084
+
+========================================================================
+
+k = 16
+
+Confusion Matrix :
+[[86.  0.  0.]
+ [19.  3.  0.]
+ [13.  0.  0.]] 
+
+Accuracy :  73.5537190083 %
+
+Recall :
+Class 1 :    1.0
+Class 2 :    0.136363636364
+Class 3 :    0.0
+Mean Recall :  0.378787878788
+
+
+knn.py:126: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC3=float((confusionMat[2][2])/(confusionMat[0][2]+confusionMat[1][2]+confusionMat[2][2]))
+Precision :
+Class 1 :    0.728813559322
+Class 2 :    1.0
+Class 3 :    nan
+Mean Precision :  nan
+
+
+F-Measure :
+Class 1 :    0.843137254902
+Class 2 :    0.24
+Class 3 :    nan
+Mean F-Measure :  nan
+
+============================================================================
+
+k=32
+
+Confusion Matrix :
+[[86.  0.  0.]
+ [18.  4.  0.]
+ [13.  0.  0.]] 
+
+Accuracy :  74.3801652893 %
+
+Recall :
+Class 1 :    1.0
+Class 2 :    0.181818181818
+Class 3 :    0.0
+Mean Recall :  0.393939393939
+
+
+knn.py:126: RuntimeWarning: invalid value encountered in double_scalars
+  precisionC3=float((confusionMat[2][2])/(confusionMat[0][2]+confusionMat[1][2]+confusionMat[2][2]))
+Precision :
+Class 1 :    0.735042735043
+Class 2 :    1.0
+Class 3 :    nan
+Mean Precision :  nan
+
+
+F-Measure :
+Class 1 :    0.847290640394
+Class 2 :    0.307692307692
+Class 3 :    nan
+Mean F-Measure :  nan
+
